@@ -1,0 +1,13 @@
+1. UI:
+    Контейнер - RootActivity
+    Внизу неё BottomTabLayout с тремя фрагментами: InvFragment, CurrFragment, HistoryFragment.
+    В каждом фрагменте RecyclerView. В HistoryFragment в тулбаре кнопка + (Add).
+    Фрагменты имплементят View.
+
+2. InvPresenter, CurrPresenter, HistoryPresenter.
+
+3. ApiRepository, ApiRepositoryImpl - обращается к Retrofit.
+4. LocalRepository, LocalRepositoryImpl - обращается к Realm.
+
+5. RetrofitClient (singleton), Requests.
+6. ... to be continued
